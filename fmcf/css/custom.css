@@ -8,3 +8,12 @@ a.btn.btn--primary.type--uppercase.menu-tab {
     display: block;
     margin-top: 21px;
 }
+
+#section5 .feature-4 p:last-of-type {
+    margin-bottom: 0.714286em;
+}
+
+.lead + form {
+    margin-top: 1.785714em;
+    margin-bottom: 2.785714em;
+}

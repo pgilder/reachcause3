@@ -55,6 +55,12 @@ document.querySelector('.recipient').innerHTML = 'hungry children';
 $('.recipient').html('hungry children');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.problem').innerHTML = 'hunger';
+
+// Using the jQuery library
+$('.problem').html('hunger');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.recipientshort').innerHTML = 'children';
 
 // Using the jQuery library
@@ -72,3 +78,10 @@ document.querySelector('.EIN').innerHTML = '87-1234567';
 
 // Using the jQuery library
 $('.EIN').html('87-1234567');
+
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.purpose').innerHTML = 'Food Rescue';
+
+// Using the jQuery library
+$('.purpose').html('Food Rescue');

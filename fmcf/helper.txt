@@ -4,6 +4,8 @@ Hero Copy
 Hero Text
 {{ratio}} {{recipientshort}} lack access to {{product}}. We’re on a mission to change that.
 
+<span class="problem"></span>
+<span class="purpose"></span>
 <span class="product"></span>
 <span class="producttype"></span>
 <span class="ratio"></span>
