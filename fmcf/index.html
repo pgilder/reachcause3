@@ -13,7 +13,7 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body data-smooth-scroll-offset="77">
         <div class="nav-container">
@@ -41,55 +41,80 @@
                             <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
                                 <div class="bar__module">
                                     <ul class="menu-horizontal text-left">
-                                        <li> <a href="#">WHY POURPOSE?</a> </li>
-                                        <li class="dropdown"> <span class="dropdown__trigger">
-                                        ABOUT US</span>
+                                        <li> <a href="./why.html">WHY POURPOSE?</a> </li>
+                                        <li> <a href="./about-us.html">ABOUT US</a></li>
+                                        <li> <a href="./our-work.html">Our Work</a></li>
+                                        <li class="dropdown">
+                                            <span class="dropdown__trigger">Get Involved</span>
                                             <div class="dropdown__container">
                                                 <div class="container">
                                                     <div class="row">
-                                                        <div class="dropdown__content col-lg-2">
-                                                            <ul class="menu-vertical">
-                                                                <li> <a href="#">Single Link</a> </li>
-                                                            </ul>
+                                                        <div class="dropdown__content dropdown__content--lg col-lg-8">
+                                                            <div class="pos-absolute col-lg-5 imagebg hidden-sm hidden-xs" data-overlay="6">
+                                                                <div class="background-image-holder">
+                                                                    <img alt="background" src="img/nonprofit-2.jpg" />
+                                                                </div>
+                                                                <div class="container pos-vertical-center pl-5">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-10">
+                                                                            <img alt="Logo" src="img/logo-light.png" class="image--xxs menu-logo" />
+                                                                            <span class="h3 color--white">Join Us In CHanging Lives Forever.</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--end of row-->
+                                                                </div>
+                                                            </div>
+                                                            <div class="row justify-content-end">
+                                                                <div class="col-lg-6">
+                                                                    <img src="img/device-2.png" alt="">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <ul class="menu-vertical">
+                                                                                <li>
+                                                                                    <a href="sections-instagram.html">
+                                                                                        Instagram
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="sections-maps.html">
+                                                                                        Maps
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <ul class="menu-vertical">
+                                                                                <li>
+                                                                                    <a href="sections-modals.html">
+                                                                                        Modals
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="sections-navigation.html">
+                                                                                        Navigation Bars
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--end of row-->
+                                                                    <a href="#" class="btn btn--primary type--uppercase menu-tab">
+                                                                        <span class="btn__text">
+                                                                            Make A Donation
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <!--end of col-->
+                                                            </div>
+                                                            <!--end of row-->
                                                         </div>
+                                                        <!--end dropdown content-->
                                                     </div>
+                                                    <!--end row-->
                                                 </div>
+                                                <!--end container-->
                                             </div>
-                                        </li>
-                                        <li class="dropdown"> <span class="dropdown__trigger">
-                                        OUR WORK</span>
-                                            <div class="dropdown__container">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="dropdown__content row w-100">
-                                                            <div class="col-lg-3">
-                                                                <h5>Menu Title</h5>
-                                                                <ul class="menu-vertical">
-                                                                    <li> <a href="#">Single Link</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5>Menu Title</h5>
-                                                                <ul class="menu-vertical">
-                                                                    <li> <a href="#">Single Link</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5>Menu Title</h5>
-                                                                <ul class="menu-vertical">
-                                                                    <li> <a href="#">Single Link</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5>Menu Title</h5>
-                                                                <ul class="menu-vertical">
-                                                                    <li> <a href="#">Single Link</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <!--end dropdown container-->
                                         </li>
                                     </ul>
                                 </div>
@@ -100,35 +125,58 @@
                                     DONATE</span> </a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
         <div class="main-container">
-            <section class="cover height-80 imagebg text-center section--ken-burns" data-overlay="4">
+          <section class="page-navigator">
+              <ul>
+                  <li>
+                      <a href="#section1" class="inner-link" data-title="Welcome"></a>
+                  </li>
+                  <li>
+                      <a href="#section2" class="inner-link" data-title="The Problem"></a>
+                  </li>
+                  <li>
+                      <a href="#section3" class="inner-link" data-title="Our Solution"></a>
+                  </li>
+                  <li>
+                      <a href="#section4" class="inner-link" data-title="Who Benefits"></a>
+                  </li>
+                  <li>
+                      <a href="#section5" class="inner-link" data-title="Ways You Can Help"></a>
+                  </li>
+                  <li>
+                      <a href="#get-started" class="inner-link" data-title="Getting Started"></a>
+                  </li>
+              </ul>
+          </section>
+            <section id="section1" class="cover height-80 imagebg text-center section--ken-burns" data-overlay="4">
                 <div class="background-image-holder"> <img alt="background" src="img/nonprofit-5.jpg"> </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-md-8 col-lg-7">
-                            <h1>98% of your money brings fresh food to hungry children.</h1>
-                            <p class="lead"> Join our monthly giving community and transform lives for children around the world. </p>
+                            <h1></span>98% of your money brings <span class="product"></span> to <span class="recipient"></span>.</h1>
+                            <p class="lead"> Join our monthly giving community and transform lives for <span class="recipientshort"></span> around the world. </p>
                             <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">
 						GIVE MONTHLY</span> </a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="text-center unpad--bottom switchable cta cta-3 switchable--switch">
+            <section id="section2" class="text-center unpad--bottom switchable cta cta-3 switchable--switch">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-lg-7">
+                        <div class="col-md-5 col-lg-6">
                             <div class="switchable__text">
-                                <h2>1 in 5 children lack access to fresh food. We’re on a mission to change that. <br></h2>
-                                <p class="lead"> We <i><b>save</b></i> <b><i>fresh food </i></b>from being <i><b>thrown away</b></i> in landfills and provide&nbsp;<b><i>nutritious</i></b>&nbsp;<i><b>meals</b></i> for thousands of <i><b>hungry children</b></i>. </p> <a class="btn btn--primary type--uppercase" href="#purchase-template"><span class="btn__text">MAKE A DONATION</span><span class="label">$1 = 5 MEALS</span>
+                                <h2><span class="ratio"></span> <span class="recipientshort"></span> lack access to <span class="product"></span>. We’re on a mission to change that. <br></h2>
+                                <p class="lead"> We <i><b>save</b></i> <b><i><span class="product"></span> </i></b>from being <i><b>thrown away</b></i> in landfills and provide&nbsp;<b><i><span class="producttype"></span></b></i> for thousands of <i><b><span class="recipient"></span></b></i>. </p> <a class="btn btn--primary type--uppercase" href="#purchase-template"><span class="btn__text">MAKE A DONATION</span><span class="label">$1 = 5 MEALS</span>
                     </a> </div>
                         </div>
-                        <div class="col-md-6 col-lg-5"> <img alt="Image" class="block" src="img/nonprofit-2.jpg"> </div>
+                        <div class="col-md-7 col-lg-6"> <img alt="Image" class="border--round box-shadow-wide" src="img/nonprofit-2.jpg"> </div>
                     </div>
                 </div>
             </section>
@@ -145,7 +193,27 @@
                                         <p class="lead">Join our awesome giving community</p>
                                     </div>
                                     <div class="col-lg-4 text-center">
-                                        <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">donate now</span> </a>
+                                        <a class="btn btn--primary type--uppercase" href="#" data-notification-link="sale-1"> <span class="btn__text">donate now</span> </a>
+                                        <div class="notification pos-top pos-right col-md-6 col-lg-4 box-shadow-wide" data-animation="from-top" data-notification-link="sale-1">
+                                            <div class="boxed boxed--lg imagebg text-left" data-overlay="6">
+                                                <div class="background-image-holder">
+                                                    <img alt="pic" src="img/nonprofit-5.jpg" />
+                                                </div>
+                                                <div class="container">
+                                                    <h2>Ready To Get Started</h2>
+                                                    <h4>Thank you for bringing nutritious meals to children who need it most.</h4>
+                                                    <p>
+                                                      We have impacted the lives of more than 240,000 children so far. Our goal is to end hunger by using the resources already available to us—and we can’t do this without you.
+                                                    </p>
+                                                    <a class="btn btn--primary" href="#">
+                                                        <span class="btn__text">
+                                                            Enter Sale
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="notification-close-cross notification-close-cross--circle notification-close"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -153,13 +221,13 @@
                     </div>
                 </div>
             </section>
-            <section class="switchable feature-large">
+            <section id="section3" class="switchable feature-large">
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-lg-5 col-md-6 switchable__text">
                             <h2>What you get out of giving to this cause...</h2>
                             <p class="lead"> When you give to <span class="sitelongtitle"></span>, you're joining a movement of countless others with a shared belief that no child should go hungry. </p>
-                            <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">JOIN THE COMMUNITY</span> </a>
+                            <a class="btn btn--primary type--uppercase" href="#get-started"> <span class="btn__text">JOIN THE COMMUNITY</span> </a>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="boxed boxed--lg boxed--border box-shadow-wide">
@@ -167,22 +235,22 @@
                                     <ul class="slides">
                                         <li class="col-12">
                                             <div class="feature feature-3 text-center"> <i class="icon icon--lg icon-Mail-3 color--primary"></i>
-                                                <h4>Mailer Integrations</h4>
-                                                <p> <span class="sitelongtitle"></span> comes with integration for Mail Chimp and Campaign Monitor forms - ideal for modern marketing campaigns </p> <a href="#">
+                                                <h4>We Rescue Produce</h4>
+                                                <p> <span class="sitelongtitle"></span> helps rescue more than 2,402,700 pounds of Fresh Produce from being thrown away in Landfills every year. </p> <a href="#">
                                         Learn More
                                     </a> </div>
                                         </li>
                                         <li class="col-12">
                                             <div class="feature feature-3 text-center"> <i class="icon icon--lg icon-Air-Balloon color--primary"></i>
-                                                <h4>Diverse Icons</h4>
-                                                <p> Including the premium Icons Mind icon kit, <span class="sitelongtitle"></span> features a highly diverse set of icons suitable for all purposes. </p> <a href="#">
+                                                <h4>We Distribute</h4>
+                                                <p> We distribute more than $3,183,632 worth of <span class="product"></span> to <span class="recipient"></span> and their Families around the world.</p> <a href="#">
                                         Learn More
                                     </a> </div>
                                         </li>
                                         <li class="col-12">
                                             <div class="feature feature-3 text-center"> <i class="icon icon--lg icon-Bacteria color--primary"></i>
-                                                <h4>Modular Design</h4>
-                                                <p> Combine blocks from a range of categories to build pages that are rich in visual style and interactivity </p> <a href="#">
+                                                <h4>We Provide Support</h4>
+                                                <p>With your support we can continue to feed hungry children. Over and over again....</p> <a href="#">
                                         Learn More
                                     </a> </div>
                                         </li>
@@ -194,22 +262,22 @@
                 </div>
             </section>
             <section class="border--bottom text-center imagebg parallax space--xs" data-overlay="4">
-                <div class="background-image-holder"> <img alt="background" src="img/nonprofit-5.jpg"> </div>
+                <div class="background-image-holder"> <img alt="background" src="img/nonprofit-1.jpg"> </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="modal-instance">
                                 <a class="btn type--uppercase modal-trigger" href="#"> <span class="btn__text">
-							▶ Watch Overview
+							MAke A Donation Now ▶
 						</span> </a>
                                 <div class="modal-container">
-                                    <div class="modal-content bg-dark" data-width="60%" data-height="60%"> <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe> </div>
+                                    <div class="modal-content bg-dark" data-width="90%" data-height="90%"> <iframe data-src="https://give.classy.org/feedingac" allowfullscreen="allowfullscreen"></iframe> </div>
                                 </div>
                             </div> <span class="block--xs">and see how <span class="sitelongtitle"></span> is making a difference</span> </div>
                     </div>
                 </div>
             </section>
-            <section class="switchable feature-large">
+            <section id="section4" class="switchable feature-large">
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-md-6"> <img alt="Image" class="border--round box-shadow-wide" src="img/nonprofit-4.jpg"> </div>
@@ -221,7 +289,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="section5">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
@@ -257,7 +325,7 @@
                     </div>
                 </div>
             </section>
-            <section class="unpad elaborate-form-1">
+            <section id="get-started" class="unpad elaborate-form-1">
                 <div class="row row--gapless">
                     <div class="col-md-6 height-50 bg--primary">
                         <div class="pos-vertical-center clearfix row no-gutters justify-content-center">
@@ -305,7 +373,7 @@
                         <div class="col-sm-6 col-md-3 col-xs-6">
                             <h6 class="type--uppercase">GET TO KNOW US</h6>
                             <ul class="list--hover">
-                                <li><a href="#">About Company</a></li>
+                                <li><a href="#">About <span class="siteshorttitle"></span></a></li>
                                 <li><a href="#">Our Team</a></li>
                                 <li><a href="#">Locations</a></li>
                                 <li><a href="#">History</a></li>
@@ -343,13 +411,32 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6"> <span class="type--fine-print">© <span class="update-year">2018</span> <span class="sitelongtitle"></span> </span> <a class="type--fine-print" href="#">Privacy Policy</a> <a class="type--fine-print" href="#">Legal</a> </div>
-                        <div class="col-sm-6 text-right text-left-xs">
+                        <div class="col-sm-9">
+                          <span class="type--fine-print">©
+                            <span class="update-year">2018</span>
+                            <span class="sitelongtitle"></span>
+                          </span>
+                          <a class="type--fine-print" href="#">Privacy Policy</a>
+                          <a class="type--fine-print" href="#">EIN: <span class="EIN"></span></a>
+                          <a class="type--fine-print"><span class="siteemail"></span></a>
+                        </div>
+                        <div class="col-sm-3 text-right text-left-xs">
                             <ul class="social-list list-inline list--hover">
                                 <li><a href="#"><i class="socicon socicon-google icon icon--xs"></i></a></li>
                                 <li><a href="#"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
                                 <li><a href="#"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
                                 <li><a href="#"><i class="socicon socicon-instagram icon icon--xs"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-9">
+                          <a class="type--fine-print"><span class="siteshortdescription"></span></a>
+                        </div>
+                        <div class="col-sm-3 text-right text-left-xs">
+                            <ul class="social-list list-inline list--hover">
+                              <span class="type--fine-print">
+                                Tel: <span class="sitephone"></span>
+                              </span>
+                              <a class="type--fine-print"><span class="siteaddress"></span></a>
                             </ul>
                         </div>
                     </div>

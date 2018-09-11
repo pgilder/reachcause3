@@ -1,1 +1,10 @@
 /*! Place your custom styles here */
+
+.menu-logo.image--xxs {
+    max-height: 4.857143em !important;
+}
+
+a.btn.btn--primary.type--uppercase.menu-tab {
+    display: block;
+    margin-top: 21px;
+}

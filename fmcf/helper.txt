@@ -1,3 +1,14 @@
+Hero Copy
+98% of your money brings {{product}} to {{recipient}}.
+
+Hero Text
+{{ratio}} {{recipientshort}} lack access to {{product}}. We’re on a mission to change that.
+
+<span class="product"></span>
+<span class="producttype"></span>
+<span class="ratio"></span>
+<span class="recipient"></span>
+<span class="recipientshort"></span>
 <span class="sitelongtitle"></span>
 <span class="siteshorttitle"></span>
 <span class="siteshortdescription"></span>
@@ -6,7 +17,7 @@
 <span class="siteaddress"></span>
  <script>
          // 'Modern' browsers (IE8+, use CSS-style selectors)
-   document.querySelector('.sitelongtitle').innerHTML = 'Childrens Emergency Medical Fund';
+   document.querySelector('.sitelongtitle').innerHTML = 'Childrens Emergency Medical Fund2';
 
    // Using the jQuery library
    $('.sitelongtitle').html('Childrens Emergency Medical Fund');
