@@ -954,6 +954,14 @@ div[data-overlay] ul {
   background: #4c4c4c;
   border-color: #4c4c4c;
 }
+
+.btn--special,
+.btn--special:visited {
+  background: #d75600;
+  border-color: #d75600;
+  border: 0;
+}
+
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
   color: #fff;

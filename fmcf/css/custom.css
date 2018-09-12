@@ -17,3 +17,18 @@ a.btn.btn--primary.type--uppercase.menu-tab {
     margin-top: 1.785714em;
     margin-bottom: 2.785714em;
 }
+
+.feature.feature-4.boxed.boxed--lg.boxed--border.feature-box {
+    min-height: 400px;
+}
+
+.btn--special .btn__text, .btn--special:visited .btn__text {
+    color: #fff;
+}
+
+
+@media (min-width: 768px)
+.col-lg-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+}
