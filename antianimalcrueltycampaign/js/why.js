@@ -27,20 +27,20 @@ $('.sitephone').html('+1 (602) 241-2873');
 document.querySelector('.siteemail').innerHTML = 'info@antianimal.org';
 
 // Using the jQuery library
-$('.siteemail').html('info@cemfund.org');
+$('.siteemail').html('info@antianimalcrueltycampaign.org');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.siteshortdescription').innerHTML = 'The Childrens Emergency Medical Fund (CEMF) is a non profit charity founded by Lon Taylor in 2000. CEMF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. CEMF is an approved 501(c)3 charity listed in publication 78';
 
 // Using the jQuery library
-$('.siteshortdescription').html('Feed My Childrens Fund (FMCF) is a non profit charity founded by Lon Taylor in 2000. FMCF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. FMCF is an approved 501(c)3 charity listed in publication 78');
+$('.siteshortdescription').html('Anti Animal Cruelty Campaign (AACC) is a non profit charity founded by Lon Taylor in 2000. AACC works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. AACC is an approved 501(c)3 charity listed in publication 78');
 
 // COPY CONTENT
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.product').innerHTML = 'care & shelter';
+document.querySelector('.product').innerHTML = 'nutritious foods';
 
 // Using the jQuery library
-$('.product').html('care & shelter');
+$('.product').html('nutritious foods');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.producttype').innerHTML = 'nutritious meals';

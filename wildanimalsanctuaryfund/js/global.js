@@ -33,7 +33,7 @@ $('.siteemail').html('info@wildanimalsanctuaryfund.org');
 document.querySelector('.siteshortdescription').innerHTML = 'The Childrens Emergency Medical Fund (CEMF) is a non profit charity founded by Lon Taylor in 2000. CEMF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. CEMF is an approved 501(c)3 charity listed in publication 78';
 
 // Using the jQuery library
-$('.siteshortdescription').html('Feed My Childrens Fund (FMCF) is a non profit charity founded by Lon Taylor in 2000. FMCF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. FMCF is an approved 501(c)3 charity listed in publication 78');
+$('.siteshortdescription').html('Anti Animal Cruelty Campaign (AACC) is a non profit charity founded by Lon Taylor in 2000. AACC works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. AACC is an approved 501(c)3 charity listed in publication 78');
 
 // COPY CONTENT
 // 'Modern' browsers (IE8+, use CSS-style selectors)

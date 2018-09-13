@@ -39,10 +39,10 @@ $('.siteshortdescription').html('Our mission is to fight against animal cruelty 
 
 // COPY CONTENT
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.product').innerHTML = 'care & shelter';
+document.querySelector('.product').innerHTML = 'nutritious foods';
 
 // Using the jQuery library
-$('.product').html('care & shelter');
+$('.product').html('nutritious foods');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.producttype').innerHTML = 'nutritious meals';
