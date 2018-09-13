@@ -1,15 +1,15 @@
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.sitelongtitle').innerHTML = 'Feed My Childrens Fund';
+document.querySelector('.sitelongtitle').innerHTML = 'Anti Animal Cruelty Campaign';
 
 // Using the jQuery library
-$('.sitelongtitle').html('Feed My Childrens Fund');
+$('.sitelongtitle').html('Anti Animal Cruelty Campaign');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshorttitle').innerHTML = 'FMCF';
+document.querySelector('.siteshorttitle').innerHTML = 'AACC';
 
 // Using the jQuery library
-$('.siteshorttitle').html('FMCF');
+$('.siteshorttitle').html('AACC');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.siteaddress').innerHTML = 'PO Box 83775 Phoenix, AZ 85071, USA';
@@ -24,7 +24,7 @@ document.querySelector('.sitephone').innerHTML = '+1 (602) 241-2873';
 $('.sitephone').html('+1 (602) 241-2873');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteemail').innerHTML = 'info@cemfund.org';
+document.querySelector('.siteemail').innerHTML = 'info@antianimal.org';
 
 // Using the jQuery library
 $('.siteemail').html('info@cemfund.org');
@@ -37,10 +37,10 @@ $('.siteshortdescription').html('Feed My Childrens Fund (FMCF) is a non profit c
 
 // COPY CONTENT
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.product').innerHTML = 'fresh food';
+document.querySelector('.product').innerHTML = 'care & shelter';
 
 // Using the jQuery library
-$('.product').html('fresh food');
+$('.product').html('care & shelter');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.producttype').innerHTML = 'nutritious meals';
@@ -49,28 +49,28 @@ document.querySelector('.producttype').innerHTML = 'nutritious meals';
 $('.producttype').html('nutritious meals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipient').innerHTML = 'hungry children';
+document.querySelector('.recipient').innerHTML = 'neglected animals';
 
 // Using the jQuery library
-$('.recipient').html('hungry children');
+$('.recipient').html('neglected animals');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientshort').innerHTML = 'children';
+document.querySelector('.recipientshort').innerHTML = 'animals';
 
 // Using the jQuery library
-$('.recipientshort').html('children');
+$('.recipientshort').html('animals');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.EIN').innerHTML = '87-1234567';
+document.querySelector('.EIN').innerHTML = '82-0774591';
 
 // Using the jQuery library
-$('.EIN').html('87-1234567');
+$('.EIN').html('82-0774591');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Food Rescue';
+document.querySelector('.purpose').innerHTML = 'Rescue Animals';
 
 // Using the jQuery library
-$('.purpose').html('Food Rescue');
+$('.purpose').html('Rescue Animals');
