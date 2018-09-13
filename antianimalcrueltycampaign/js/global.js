@@ -1,15 +1,15 @@
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.sitelongtitle').innerHTML = 'Feed My Childrens Fund';
+document.querySelector('.sitelongtitle').innerHTML = 'Anti Animal Cruelty Campaign';
 
 // Using the jQuery library
-$('.sitelongtitle').html('Feed My Childrens Fund');
+$('.sitelongtitle').html('Anti Animal Cruelty Campaign');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshorttitle').innerHTML = 'FMCF';
+document.querySelector('.siteshorttitle').innerHTML = 'AACC';
 
 // Using the jQuery library
-$('.siteshorttitle').html('FMCF');
+$('.siteshorttitle').html('AACC');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.siteaddress').innerHTML = 'PO Box 83775 Phoenix, AZ 85071, USA';
@@ -24,7 +24,7 @@ document.querySelector('.sitephone').innerHTML = '+1 (602) 241-2873';
 $('.sitephone').html('+1 (602) 241-2873');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteemail').innerHTML = 'info@cemfund.org';
+document.querySelector('.siteemail').innerHTML = 'info@antianimal.org';
 
 // Using the jQuery library
 $('.siteemail').html('info@cemfund.org');
