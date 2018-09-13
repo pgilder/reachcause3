@@ -37,10 +37,10 @@ $('.siteshortdescription').html('Feed My Childrens Fund (FMCF) is a non profit c
 
 // COPY CONTENT
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.product').innerHTML = 'fresh food';
+document.querySelector('.product').innerHTML = 'care & shelter';
 
 // Using the jQuery library
-$('.product').html('fresh food');
+$('.product').html('care & shelter');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.producttype').innerHTML = 'nutritious meals';
@@ -49,22 +49,22 @@ document.querySelector('.producttype').innerHTML = 'nutritious meals';
 $('.producttype').html('nutritious meals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipient').innerHTML = 'hungry children';
+document.querySelector('.recipient').innerHTML = 'neglected animals';
 
 // Using the jQuery library
-$('.recipient').html('hungry children');
+$('.recipient').html('neglected animals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.problem').innerHTML = 'hunger';
+document.querySelector('.problem').innerHTML = 'cruelty';
 
 // Using the jQuery library
-$('.problem').html('hunger');
+$('.problem').html('cruelty');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientshort').innerHTML = 'children';
+document.querySelector('.recipientshort').innerHTML = 'animals';
 
 // Using the jQuery library
-$('.recipientshort').html('children');
+$('.recipientshort').html('animals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.ratio').innerHTML = '1 in 5';
@@ -81,7 +81,7 @@ $('.EIN').html('87-1234567');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Food Rescue';
+document.querySelector('.purpose').innerHTML = 'Rescue Animals';
 
 // Using the jQuery library
-$('.purpose').html('Food Rescue');
+$('.purpose').html('Rescue Animals');
