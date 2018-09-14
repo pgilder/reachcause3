@@ -38,6 +38,11 @@ $('.siteshortdescription').html('Our mission is to fight against animal cruelty 
 // COPY CONTENT
 
 
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.recipientsingle').innerHTML = 'animal';
+
+// Using the jQuery library
+$('.single').html('animal');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.EIN').innerHTML = '82-0774591';

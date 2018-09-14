@@ -62,6 +62,7 @@ document.querySelector('.recipientshort').innerHTML = 'animals';
 // Using the jQuery library
 $('.recipientshort').html('animals');
 
+
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.families').innerHTML = 'owners';
 
