@@ -57,16 +57,24 @@ document.querySelector('.recipient').innerHTML = 'neglected animals';
 $('.recipient').html('neglected animals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.recipientshort').innerHTML = 'animals';
+
+// Using the jQuery library
+$('.recipientshort').html('animals');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.families').innerHTML = 'owners';
+
+// Using the jQuery library
+$('.families').html('owners');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.problem').innerHTML = 'cruelty';
 
 // Using the jQuery library
 $('.problem').html('cruelty');
 
-// 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientshort').innerHTML = 'animals';
 
-// Using the jQuery library
-$('.recipientshort').html('animals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.ratio').innerHTML = '1 in 5';
