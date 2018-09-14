@@ -29,11 +29,6 @@ document.querySelector('.siteemail').innerHTML = 'info@feedmychildrensfund.org';
 // Using the jQuery library
 $('.siteemail').html('info@feedmychildrensfund.org');
 
-// 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.donateurl').innerHTML = 'https://donorbox.org/feedmychildrensfund';
-
-// Using the jQuery library
-$('.donateurl').html('https://donorbox.org/feedmychildrensfund');
 
 https://donorbox.org/feedmychildrensfund
 // 'Modern' browsers (IE8+, use CSS-style selectors)
