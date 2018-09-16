@@ -957,10 +957,18 @@ div[data-overlay] ul {
 
 .btn--special,
 .btn--special:visited {
-  background: #d75600;
-  border-color: #d75600;
+  background: #58B5AE;
+  border-color: #58B5AE;
   border: 0;
 }
+
+.btn--special,
+.btn--special:hover {
+  background: #488e89;
+  border-color: #488e89;
+  border: 0;
+}
+
 
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -971,16 +979,16 @@ div[data-overlay] ul {
   color: #fff;
 }
 .btn--primary:hover {
-  background: #d75600;
-  border: solid #d75600;
+  background: #58B5AE;
+  border: solid #58B5AE;
 }
 .btn--primary:active {
   background: #3483de;
 }
 .btn--primary-1,
 .btn--primary-1:visited {
-  background: #da7139;
-  border-color: #da7139;
+  background: #488e89;
+  border-color: #488e89;
 }
 .btn--primary-1 .btn__text,
 .btn--primary-1:visited .btn__text {
@@ -2744,7 +2752,7 @@ a {
   color: #4c4c4c;
 }
 .color--primary-1 {
-  color: #da7139 !important;
+  color: #488e89 !important;
 }
 .color--primary-2 {
   color: #465773 !important;
@@ -2851,7 +2859,7 @@ a {
   background: rgba(250, 250, 250, 0.2);
 }
 .bg--primary-1 {
-  background: #da7139;
+  background: #488e89;
 }
 .bg--primary-1 p,
 .bg--primary-1 span,
@@ -4726,7 +4734,7 @@ section.parallax .row .background-image-holder {
   right: 1.23809524em;
 }
 .label:not([class*='bg--']) {
-  background: #da7139;
+  background: #488e89;
 }
 .label.label--inline {
   position: relative;
@@ -7469,7 +7477,7 @@ input[type="submit"][type="submit"].btn--loading:after {
   border-color: #4c4c4c;
 }
 .bg--primary button.btn.btn--primary-1 {
-  border-color: #da7139;
+  border-color: #488e89;
 }
 input,
 select {
@@ -7744,7 +7752,7 @@ label {
   border-color: #fff;
 }
 .bg--primary-1 .input-radio--innerlabel.checked label {
-  color: #da7139;
+  color: #488e89;
 }
 .input-select {
   position: relative;
