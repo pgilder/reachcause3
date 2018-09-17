@@ -1,15 +1,15 @@
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.sitelongtitle').innerHTML = 'Anti Animal Cruelty Campaign';
+document.querySelector('.sitelongtitle').innerHTML = 'Feeding Gods Children';
 
 // Using the jQuery library
-$('.sitelongtitle').html('Anti Animal Cruelty Campaign');
+$('.sitelongtitle').html('Feeding Gods Children');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshorttitle').innerHTML = 'AACC';
+document.querySelector('.siteshorttitle').innerHTML = 'FGC';
 
 // Using the jQuery library
-$('.siteshorttitle').html('AACC');
+$('.siteshorttitle').html('FGC');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.siteaddress').innerHTML = 'PO Box 83775 Phoenix, AZ 85071, USA';
@@ -24,23 +24,25 @@ document.querySelector('.sitephone').innerHTML = '+1 (602) 241-2873';
 $('.sitephone').html('+1 (602) 241-2873');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteemail').innerHTML = 'info@antianimalcrueltycampaign.org';
+document.querySelector('.siteemail').innerHTML = 'info@feedinggc.org';
 
 // Using the jQuery library
-$('.siteemail').html('info@antianimalcrueltycampaign.org');
+$('.siteemail').html('info@feedinggc.org');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshortdescription').innerHTML = 'The Childrens Emergency Medical Fund (CEMF) is a non profit charity founded by Lon Taylor in 2000. CEMF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. CEMF is an approved 501(c)3 charity listed in publication 78';
+document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to fight against child hunger by providing a nutritious meals to children in need and their families with the support of a national network of donors just like you.';
 
 // Using the jQuery library
-$('.siteshortdescription').html('Anti Animal Cruelty Campaign (AACC) is a non profit charity founded by Lon Taylor in 2000. AACC works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. AACC is an approved 501(c)3 charity listed in publication 78');
+$('.siteshortdescription').html('Our mission is to fight against child hunger by providing a nutritious meals to children in need and their families with the support of a national network of donors just like you.');
+
+
 
 // COPY CONTENT
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.product').innerHTML = 'fresh food';
+document.querySelector('.product').innerHTML = 'nutritious foods';
 
 // Using the jQuery library
-$('.product').html('fresh food');
+$('.product').html('nutritious foods');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.producttype').innerHTML = 'nutritious meals';
@@ -55,16 +57,25 @@ document.querySelector('.recipient').innerHTML = 'hungry children';
 $('.recipient').html('hungry children');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.recipientshort').innerHTML = 'children';
+
+// Using the jQuery library
+$('.recipientshort').html('children');
+
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.families').innerHTML = 'families';
+
+// Using the jQuery library
+$('.families').html('families');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.problem').innerHTML = 'hunger';
 
 // Using the jQuery library
 $('.problem').html('hunger');
 
-// 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientshort').innerHTML = 'children';
 
-// Using the jQuery library
-$('.recipientshort').html('children');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.ratio').innerHTML = '1 in 5';
@@ -74,14 +85,14 @@ $('.ratio').html('1 in 5');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.EIN').innerHTML = '87-1234567';
+document.querySelector('.EIN').innerHTML = '82-4800977';
 
 // Using the jQuery library
-$('.EIN').html('87-1234567');
+$('.EIN').html('82-4800977');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Food Rescue';
+document.querySelector('.purpose').innerHTML = 'Rescue Food';
 
 // Using the jQuery library
-$('.purpose').html('Food Rescue');
+$('.purpose').html('Rescue Food');
