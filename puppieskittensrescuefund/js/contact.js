@@ -35,14 +35,45 @@ document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to f
 // Using the jQuery library
 $('.siteshortdescription').html('Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.');
 
+
+
 // COPY CONTENT
-
-
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientsingle').innerHTML = 'animal';
+document.querySelector('.product').innerHTML = 'nutritious foods';
 
 // Using the jQuery library
-$('.single').html('animal');
+$('.product').html('nutritious foods');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.producttype').innerHTML = 'nutritious meals';
+
+// Using the jQuery library
+$('.producttype').html('nutritious meals');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.recipient').innerHTML = 'neglected animals';
+
+// Using the jQuery library
+$('.recipient').html('neglected animals');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.problem').innerHTML = 'cruelty';
+
+// Using the jQuery library
+$('.problem').html('cruelty');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.recipientshort').innerHTML = 'animals';
+
+// Using the jQuery library
+$('.recipientshort').html('animals');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.ratio').innerHTML = '1 in 5';
+
+// Using the jQuery library
+$('.ratio').html('1 in 5');
+
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.EIN').innerHTML = '82-0774591';
