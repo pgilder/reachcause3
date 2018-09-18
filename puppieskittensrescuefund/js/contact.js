@@ -6,10 +6,10 @@ document.querySelector('.sitelongtitle').innerHTML = 'Puppies Kittens Rescue Fun
 $('.sitelongtitle').html('Puppies Kittens Rescue Fund');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshorttitle').innerHTML = 'AACC';
+document.querySelector('.siteshorttitle').innerHTML = 'PKRF';
 
 // Using the jQuery library
-$('.siteshorttitle').html('AACC');
+$('.siteshorttitle').html('PKRF');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.siteaddress').innerHTML = 'PO Box 83775 Phoenix, AZ 85071, USA';
@@ -76,14 +76,14 @@ $('.ratio').html('1 in 5');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.EIN').innerHTML = '82-0774591';
+document.querySelector('.EIN').innerHTML = '81-2091783';
 
 // Using the jQuery library
-$('.EIN').html('82-0774591');
+$('.EIN').html('81-2091783');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Rescue Animals';
+document.querySelector('.purpose').innerHTML = 'Rescue Puppies and Kittens';
 
 // Using the jQuery library
-$('.purpose').html('Rescue Animals');
+$('.purpose').html('Rescue Puppies and Kittens');

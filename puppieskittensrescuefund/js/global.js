@@ -6,10 +6,10 @@ document.querySelector('.sitelongtitle').innerHTML = 'Puppies Kittens Rescue Fun
 $('.sitelongtitle').html('Puppies Kittens Rescue Fund');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshorttitle').innerHTML = 'AACC';
+document.querySelector('.siteshorttitle').innerHTML = 'PKRF';
 
 // Using the jQuery library
-$('.siteshorttitle').html('AACC');
+$('.siteshorttitle').html('PKRF');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.siteaddress').innerHTML = 'PO Box 83775 Phoenix, AZ 85071, USA';
@@ -30,10 +30,10 @@ document.querySelector('.siteemail').innerHTML = 'info@puppieskittensrescuefund.
 $('.siteemail').html('info@puppieskittensrescuefund.org');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.';
+document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to fight against animal hunger by providing a nutritious meals with the support of a national network of donors just like you.';
 
 // Using the jQuery library
-$('.siteshortdescription').html('Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.');
+$('.siteshortdescription').html('Our mission is to fight against animal hunger by providing a nutritious meals with the support of a national network of donors just like you.');
 
 
 
@@ -70,10 +70,10 @@ document.querySelector('.families').innerHTML = 'owners';
 $('.families').html('owners');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.problem').innerHTML = 'cruelty';
+document.querySelector('.problem').innerHTML = 'hunger';
 
 // Using the jQuery library
-$('.problem').html('cruelty');
+$('.problem').html('hunger');
 
 
 
@@ -85,14 +85,14 @@ $('.ratio').html('1 in 5');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.EIN').innerHTML = '82-0774591';
+document.querySelector('.EIN').innerHTML = '81-2091783';
 
 // Using the jQuery library
-$('.EIN').html('82-0774591');
+$('.EIN').html('81-2091783');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Rescue Animals';
+document.querySelector('.purpose').innerHTML = 'Rescue Puppies and Kittens';
 
 // Using the jQuery library
-$('.purpose').html('Rescue Animals');
+$('.purpose').html('Rescue Puppies and Kittens');
