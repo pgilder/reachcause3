@@ -6,7 +6,7 @@ document.querySelector('.sitelongtitle').innerHTML = 'Wild Animal Sanctuary Fund
 $('.sitelongtitle').html('Wild Animal Sanctuary Fund');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshorttitle').innerHTML = 'WASF';
+    document.querySelector('.siteshorttitle').innerHTML = 'WASF';
 
 // Using the jQuery library
 $('.siteshorttitle').html('WASF');
@@ -30,17 +30,19 @@ document.querySelector('.siteemail').innerHTML = 'info@wildanimalsanctuaryfund.o
 $('.siteemail').html('info@wildanimalsanctuaryfund.org');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshortdescription').innerHTML = 'The Childrens Emergency Medical Fund (CEMF) is a non profit charity founded by Lon Taylor in 2000. CEMF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. CEMF is an approved 501(c)3 charity listed in publication 78';
+document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.';
 
 // Using the jQuery library
-$('.siteshortdescription').html('Anti Animal Cruelty Campaign (AACC) is a non profit charity founded by Lon Taylor in 2000. AACC works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. AACC is an approved 501(c)3 charity listed in publication 78');
+$('.siteshortdescription').html('Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.');
+
+
 
 // COPY CONTENT
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.product').innerHTML = 'fresh food';
+document.querySelector('.product').innerHTML = 'nutritious foods';
 
 // Using the jQuery library
-$('.product').html('fresh food');
+$('.product').html('nutritious foods');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.producttype').innerHTML = 'nutritious meals';
@@ -49,22 +51,31 @@ document.querySelector('.producttype').innerHTML = 'nutritious meals';
 $('.producttype').html('nutritious meals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipient').innerHTML = 'hungry children';
+document.querySelector('.recipient').innerHTML = 'neglected animals';
 
 // Using the jQuery library
-$('.recipient').html('hungry children');
+$('.recipient').html('neglected animals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.problem').innerHTML = 'hunger';
+document.querySelector('.recipientshort').innerHTML = 'animals';
 
 // Using the jQuery library
-$('.problem').html('hunger');
+$('.recipientshort').html('animals');
+
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientshort').innerHTML = 'children';
+document.querySelector('.families').innerHTML = 'owners';
 
 // Using the jQuery library
-$('.recipientshort').html('children');
+$('.families').html('owners');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.problem').innerHTML = 'cruelty';
+
+// Using the jQuery library
+$('.problem').html('cruelty');
+
+
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.ratio').innerHTML = '1 in 5';
@@ -81,7 +92,7 @@ $('.EIN').html('82-0755123');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Food Rescue';
+document.querySelector('.purpose').innerHTML = 'Rescue Animals';
 
 // Using the jQuery library
-$('.purpose').html('Food Rescue');
+$('.purpose').html('Rescue Animals');

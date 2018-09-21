@@ -1,15 +1,15 @@
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.sitelongtitle').innerHTML = 'Anti Animal Cruelty Campaign';
+document.querySelector('.sitelongtitle').innerHTML = 'Wild Animal Sanctuary Fund';
 
 // Using the jQuery library
-$('.sitelongtitle').html('Anti Animal Cruelty Campaign');
+$('.sitelongtitle').html('Wild Animal Sanctuary Fund');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshorttitle').innerHTML = 'AACC';
+document.querySelector('.siteshorttitle').innerHTML = 'WASF';
 
 // Using the jQuery library
-$('.siteshorttitle').html('AACC');
+$('.siteshorttitle').html('WASF');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.siteaddress').innerHTML = 'PO Box 83775 Phoenix, AZ 85071, USA';
@@ -24,30 +24,35 @@ document.querySelector('.sitephone').innerHTML = '+1 (602) 241-2873';
 $('.sitephone').html('+1 (602) 241-2873');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteemail').innerHTML = 'info@antianimalcrueltycampaign.org';
+document.querySelector('.siteemail').innerHTML = 'info@wildanimalsanctuaryfund.org';
 
 // Using the jQuery library
-$('.siteemail').html('info@antianimalcrueltycampaign.org');
+$('.siteemail').html('info@wildanimalsanctuaryfund.org');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshortdescription').innerHTML = 'The Childrens Emergency Medical Fund (CEMF) is a non profit charity founded by Lon Taylor in 2000. CEMF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. CEMF is an approved 501(c)3 charity listed in publication 78';
+document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.';
 
 // Using the jQuery library
-$('.siteshortdescription').html('Anti Animal Cruelty Campaign (AACC) is a non profit charity founded by Lon Taylor in 2000. AACC works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. AACC is an approved 501(c)3 charity listed in publication 78');
+$('.siteshortdescription').html('Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.');
 
 // COPY CONTENT
 
 
-
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.EIN').innerHTML = '87-1234567';
+document.querySelector('.recipientsingle').innerHTML = 'animal';
 
 // Using the jQuery library
-$('.EIN').html('87-1234567');
+$('.single').html('animal');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.EIN').innerHTML = '82-0755123';
+
+// Using the jQuery library
+$('.EIN').html('82-0755123');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Food Rescue';
+document.querySelector('.purpose').innerHTML = 'Rescue Animals';
 
 // Using the jQuery library
-$('.purpose').html('Food Rescue');
+$('.purpose').html('Rescue Animals');
