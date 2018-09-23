@@ -49,17 +49,17 @@ document.querySelector('.producttype').innerHTML = 'nutritious meals';
 $('.producttype').html('nutritious meals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipient').innerHTML = 'neglected animals';
+document.querySelector('.recipient').innerHTML = 'neglected wildlife';
 
 // Using the jQuery library
-$('.recipient').html('neglected animals');
+$('.recipient').html('neglected wildlife');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientshort').innerHTML = 'animals';
+document.querySelector('.recipientshort').innerHTML = 'wildlife';
 
 // Using the jQuery library
-$('.recipientshort').html('animals');
+$('.recipientshort').html('wildlife');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
@@ -70,7 +70,7 @@ $('.EIN').html('82-0755123');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Rescue Animals';
+document.querySelector('.purpose').innerHTML = 'Rescue Wildlife';
 
 // Using the jQuery library
-$('.purpose').html('Rescue Animals');
+$('.purpose').html('Rescue Wildlife');

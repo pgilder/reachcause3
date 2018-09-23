@@ -52,7 +52,7 @@ $('.EIN').html('82-0755123');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Rescue Animals';
+document.querySelector('.purpose').innerHTML = 'Rescue Wildlife';
 
 // Using the jQuery library
-$('.purpose').html('Rescue Animals');
+$('.purpose').html('Rescue Wildlife');

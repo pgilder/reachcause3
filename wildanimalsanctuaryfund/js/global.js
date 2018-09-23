@@ -51,37 +51,37 @@ document.querySelector('.producttype').innerHTML = 'nutritious meals';
 $('.producttype').html('nutritious meals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipient').innerHTML = 'neglected animals';
+document.querySelector('.recipient').innerHTML = 'neglected wildlife';
 
 // Using the jQuery library
-$('.recipient').html('neglected animals');
+$('.recipient').html('neglected wildlife');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientshort').innerHTML = 'animals';
+document.querySelector('.recipientshort').innerHTML = 'wildlife';
 
 // Using the jQuery library
-$('.recipientshort').html('animals');
-
-
-// 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.families').innerHTML = 'owners';
-
-// Using the jQuery library
-$('.families').html('owners');
-
-// 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.problem').innerHTML = 'cruelty';
-
-// Using the jQuery library
-$('.problem').html('cruelty');
-
+$('.recipientshort').html('wildlife');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.ratio').innerHTML = '1 in 5';
+document.querySelector('.families').innerHTML = 'animals';
 
 // Using the jQuery library
-$('.ratio').html('1 in 5');
+$('.families').html('animals');
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.problem').innerHTML = 'wildlife malnutrition';
+
+// Using the jQuery library
+$('.problem').html('wildlife malnutrition');
+
+
+
+// 'Modern' browsers (IE8+, use CSS-style selectors)
+document.querySelector('.ratio').innerHTML = 'Many';
+
+// Using the jQuery library
+$('.ratio').html('Many');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
@@ -92,7 +92,7 @@ $('.EIN').html('82-0755123');
 
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.purpose').innerHTML = 'Rescue Animals';
+document.querySelector('.purpose').innerHTML = 'Rescue Wildlife';
 
 // Using the jQuery library
-$('.purpose').html('Rescue Animals');
+$('.purpose').html('Rescue Wildlife');
