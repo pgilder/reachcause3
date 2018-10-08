@@ -30,10 +30,10 @@ document.querySelector('.siteemail').innerHTML = 'info@wildanimalsanctuaryfund.o
 $('.siteemail').html('info@wildanimalsanctuaryfund.org');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshortdescription').innerHTML = 'The Childrens Emergency Medical Fund (CEMF) is a non profit charity founded by Lon Taylor in 2000. CEMF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. CEMF is an approved 501(c)3 charity listed in publication 78';
+document.querySelector('.siteshortdescription').innerHTML = 'The Wild Animal Sanctuary Fund (WASF) is a non profit charity founded by Lon Taylor in 2000. WASF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. WASF is an approved 501(c)3 charity listed in publication 78';
 
 // Using the jQuery library
-$('.siteshortdescription').html('Anti Animal Cruelty Campaign (AACC) is a non profit charity founded by Lon Taylor in 2000. AACC works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. AACC is an approved 501(c)3 charity listed in publication 78');
+$('.siteshortdescription').html('Wild Animal Sanctuary Fund (WASF) is a non profit charity founded by Lon Taylor in 2000. WASF works with the Northern Arizona Food Bank, and the Borderland Food Bank, which serves charities throughout Arizona and America. WASF is an approved 501(c)3 charity listed in publication 78');
 
 // COPY CONTENT
 // 'Modern' browsers (IE8+, use CSS-style selectors)
@@ -49,10 +49,10 @@ document.querySelector('.producttype').innerHTML = 'nutritious meals';
 $('.producttype').html('nutritious meals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipient').innerHTML = 'hungry children';
+document.querySelector('.recipient').innerHTML = 'wild animals';
 
 // Using the jQuery library
-$('.recipient').html('hungry children');
+$('.recipient').html('wild animals');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.problem').innerHTML = 'hunger';
@@ -61,10 +61,10 @@ document.querySelector('.problem').innerHTML = 'hunger';
 $('.problem').html('hunger');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.recipientshort').innerHTML = 'children';
+document.querySelector('.recipientshort').innerHTML = 'a';
 
 // Using the jQuery library
-$('.recipientshort').html('children');
+$('.recipientshort').html('a');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
 document.querySelector('.ratio').innerHTML = '1 in 5';
