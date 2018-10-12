@@ -30,10 +30,10 @@ document.querySelector('.siteemail').innerHTML = 'info@wildanimalsanctuaryfund.o
 $('.siteemail').html('info@wildanimalsanctuaryfund.org');
 
 // 'Modern' browsers (IE8+, use CSS-style selectors)
-document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.';
+document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to provide a transportation link between national food products donors (who have the food surplus) and the independently operated food banks across the country who distribute this life-saving food to wildlife who need it most with the support of a national network of donors just like you.';
 
 // Using the jQuery library
-$('.siteshortdescription').html('Our mission is to fight against animal cruelty by providing a safe haven with the support of a national network of donors just like you.');
+$('.siteshortdescription').html('Our mission is to provide a transportation link between national food products donors (who have the food surplus) and the independently operated food banks across the country who distribute this life-saving food to wildlife who need it most with the support of a national network of donors just like you.');
 
 
 
