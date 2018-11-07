@@ -1,0 +1,50 @@
+Hero Copy
+98 percent of your money brings {{product}} to {{recipient}}.
+
+Hero Text
+{{ratio}} {{recipientshort}} lack access to {{product}}. We’re on a mission to change that.
+
+<span class="problem"></span>
+<span class="purpose"></span>
+<span class="product"></span>
+<span class="producttype"></span>
+<span class="ratio"></span>
+<span class="recipient"></span>
+<span class="recipientshort"></span>
+<span class="sitelongtitle"></span>
+<span class="siteshorttitle"></span>
+<span class="siteshortdescription"></span>
+<span class="sitephone"></span>
+<span class="siteemail"></span>
+<span class="siteaddress"></span>
+ <script>
+         // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.sitelongtitle').innerHTML = 'Childrens Emergency Medical Fund2';
+
+   // Using the jQuery library
+   $('.sitelongtitle').html('Childrens Emergency Medical Fund');
+
+   // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.siteaddress').innerHTML = 'Box 83775 Phoenix, AZ 85071, USA';
+
+   // Using the jQuery library
+   $('.siteaddress').html('Box 83775 Phoenix, AZ 85071, USA');
+
+   // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.sitephone').innerHTML = '+1 (602) 241-2873';
+
+   // Using the jQuery library
+   $('.sitephone').html('+1 (602) 241-2873');
+
+   // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.siteemail').innerHTML = 'info@wildanimalsanctuaryfund.org';
+
+   // Using the jQuery library
+   $('.siteemail').html('info@wildanimalsanctuaryfund.org');
+
+   // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to provide a transportation link between national food products donors (who have the food surplus) and the independently operated food banks across the country who distribute this life-saving food to wildlife who need it most with the support of a national network of donors just like you.';
+
+   // Using the jQuery library
+   $('.siteshortdescription').html('Our mission is to provide a transportation link between national food products donors (who have the food surplus) and the independently operated food banks across the country who distribute this life-saving food to wildlife who need it most with the support of a national network of donors just like you.');
+</script>

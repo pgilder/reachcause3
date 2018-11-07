@@ -1,22 +1,22 @@
 Hero Copy
-98% of your money brings {{product}} to {{recipient}}.
+98 percent of your money brings {{product}} to {{recipient}}.
 
 Hero Text
 {{ratio}} {{recipientshort}} lack access to {{product}}. We’re on a mission to change that.
 
-<span class="problem"></span>
-<span class="purpose"></span>
-<span class="product"></span>
+wildlife malnutrition
+Rescue Wildlife
+nutritious foods
 <span class="producttype"></span>
-<span class="ratio"></span>
-<span class="recipient"></span>
-<span class="recipientshort"></span>
-<span class="sitelongtitle"></span>
-<span class="siteshorttitle"></span>
-<span class="siteshortdescription"></span>
-<span class="sitephone"></span>
-<span class="siteemail"></span>
-<span class="siteaddress"></span>
+Many
+neglected wildlife
+wildlife
+Wild Animal Sanctuary Fund
+WASF
+Our mission is to provide a transportation link between national food products donors (who have the food surplus) and the independently operated food banks across the country who distribute this life-saving food to wildlife who need it most with the support of a national network of donors just like you.
++1 (602) 241-2873
+info@wildanimalsanctuaryfund.org
+PO Box 83775 Phoenix, AZ 85071, USA
  <script>
          // 'Modern' browsers (IE8+, use CSS-style selectors)
    document.querySelector('.sitelongtitle').innerHTML = 'Childrens Emergency Medical Fund2';

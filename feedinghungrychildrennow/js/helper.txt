@@ -1,0 +1,50 @@
+Hero Copy
+98 percent of your money brings {{product}} to {{recipient}}.
+
+Hero Text
+{{ratio}} {{recipientshort}} lack access to {{product}}. We’re on a mission to change that.
+
+children malnutrition
+Rescue Children
+nutritious foods
+<span class="producttype"></span>
+Many
+hungry children
+children
+Feeding Hungry Children
+WASF
+Our mission is to provide a transportation link between national food products donors (who have the food surplus) and the independently operated food banks across the country who distribute this life-saving food to children who need it most with the support of a national network of donors just like you.
++1 (602) 241-2873
+info@feedinghungrychildrennow.org
+PO Box 83775 Phoenix, AZ 85071, USA
+ <script>
+         // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.sitelongtitle').innerHTML = 'Childrens Emergency Medical Fund2';
+
+   // Using the jQuery library
+   $('.sitelongtitle').html('Childrens Emergency Medical Fund');
+
+   // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.siteaddress').innerHTML = 'Box 83775 Phoenix, AZ 85071, USA';
+
+   // Using the jQuery library
+   $('.siteaddress').html('Box 83775 Phoenix, AZ 85071, USA');
+
+   // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.sitephone').innerHTML = '+1 (602) 241-2873';
+
+   // Using the jQuery library
+   $('.sitephone').html('+1 (602) 241-2873');
+
+   // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.siteemail').innerHTML = 'info@feedinghungrychildrennow.org';
+
+   // Using the jQuery library
+   $('.siteemail').html('info@feedinghungrychildrennow.org');
+
+   // 'Modern' browsers (IE8+, use CSS-style selectors)
+   document.querySelector('.siteshortdescription').innerHTML = 'Our mission is to provide a transportation link between national food products donors (who have the food surplus) and the independently operated food banks across the country who distribute this life-saving food to children who need it most with the support of a national network of donors just like you.';
+
+   // Using the jQuery library
+   $('.siteshortdescription').html('Our mission is to provide a transportation link between national food products donors (who have the food surplus) and the independently operated food banks across the country who distribute this life-saving food to children who need it most with the support of a national network of donors just like you.');
+</script>

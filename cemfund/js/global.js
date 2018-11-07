@@ -18,14 +18,14 @@
   $('.sitephone').html('+1 (602) 241-2873');
 
   // 'Modern' browsers (IE8+, use CSS-style selectors)
-  document.querySelector('.siteemail').innerHTML = 'info@feedingac.org';
+  document.querySelector('.siteemail').innerHTML = 'info@feedingahc.org';
 
   // Using the jQuery library
-  $('.siteemail').html('info@feedingac.org');
+  $('.siteemail').html('info@feedingahc.org');
 
   // 'Modern' browsers (IE8+, use CSS-style selectors)
-  document.querySelector('.siteshortdescription').innerHTML = 'Feeding Americas Children is partnering with The 3000 Club to rescue 30 million pounds of fresh fruits and vegetables every year';
+  document.querySelector('.siteshortdescription').innerHTML = 'Feeding Americas Hungry Children is partnering with The 3000 Club to rescue 30 million pounds of fresh fruits and vegetables every year';
 
   // Using the jQuery library
-  $('.siteshortdescription').html('Feeding Americas Children is partnering with The 3000 Club to rescue 30 million pounds of fresh fruits and vegetables every year');
+  $('.siteshortdescription').html('Feeding Americas Hungry Children is partnering with The 3000 Club to rescue 30 million pounds of fresh fruits and vegetables every year');
 </script>
